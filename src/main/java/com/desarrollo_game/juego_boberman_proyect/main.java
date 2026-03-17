@@ -26,6 +26,8 @@ public class main extends Application {
         // Logica principal del juego
         Game game = new Game(scene);
 
+        scene.setRoot(game.getRoot());
+
         // Agregando el titulo a la ventana
         stage.setTitle("Mini Bomberman");
         // Agregando el contenido/escena a la ventana
